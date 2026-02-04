@@ -22,6 +22,7 @@ enum RequestStatus {
   pending
   approved
   rejected
+  cancelled
 }
 
 model Department {
@@ -38,13 +39,13 @@ model Employee {
   name         String
   email        String         @unique
   role         String
-  departmentId String         @map("department_id")
+  departmentId String?         @map("department_id")
   managerId    String?        @map("manager_id")
   status       EmployeeStatus
   joinDate     DateTime       @map("join_date")
   endDate      DateTime?      @map("end_date")
 
-  department        Department @relation(fields: [departmentId], references: [id])
+  department        Department? @relation(fields: [departmentId], references: [id])
   manager           Employee?  @relation("EmployeeHierarchy", fields: [managerId], references: [id])
   subordinates      Employee[] @relation("EmployeeHierarchy")
   submittedRequests Request[]  @relation("SubmittedRequests")
