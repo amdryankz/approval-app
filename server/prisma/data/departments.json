@@ -1,0 +1,37 @@
+[
+  {
+    "id": "dept-001",
+    "name": "Production",
+    "location": "Cikarang Plant"
+  },
+  {
+    "id": "dept-002",
+    "name": "Finance & Accounting",
+    "location": "Jakarta HQ"
+  },
+  {
+    "id": "dept-003",
+    "name": "Human Resources",
+    "location": "Jakarta HQ"
+  },
+  {
+    "id": "dept-004",
+    "name": "Procurement",
+    "location": "Jakarta HQ"
+  },
+  {
+    "id": "dept-005",
+    "name": "Quality Assurance",
+    "location": "Cikarang Plant"
+  },
+  {
+    "id": "dept-006",
+    "name": "Warehouse & Logistics",
+    "location": "Cikarang Plant"
+  },
+  {
+    "id": "dept-007",
+    "name": "IT",
+    "location": "Jakarta HQ"
+  }
+]

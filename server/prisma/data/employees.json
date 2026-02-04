@@ -1,0 +1,263 @@
+[
+  {
+    "id": "emp-001",
+    "name": "Budi Santoso",
+    "email": "budi.santoso@ptmajujaya.co.id",
+    "role": "Plant Director",
+    "department_id": "dept-001",
+    "manager_id": null,
+    "status": "active",
+    "join_date": "2015-03-12"
+  },
+  {
+    "id": "emp-002",
+    "name": "Siti Rahayu",
+    "email": "siti.rahayu@ptmajujaya.co.id",
+    "role": "Finance Manager",
+    "department_id": "dept-002",
+    "manager_id": "emp-001",
+    "status": "active",
+    "join_date": "2016-08-01"
+  },
+  {
+    "id": "emp-003",
+    "name": "Ahmad Hidayat",
+    "email": "ahmad.hidayat@ptmajujaya.co.id",
+    "role": "Accountant",
+    "department_id": "dept-002",
+    "manager_id": "emp-002",
+    "status": "active",
+    "join_date": "2019-01-15"
+  },
+  {
+    "id": "emp-004",
+    "name": "Dewi Lestari",
+    "email": "dewi.lestari@ptmajujaya.co.id",
+    "role": "Finance Staff",
+    "department_id": "dept-002",
+    "manager_id": "emp-002",
+    "status": "active",
+    "join_date": "2021-06-20"
+  },
+  {
+    "id": "emp-005",
+    "name": "Rina Wijaya",
+    "email": "rina.wijaya@ptmajujaya.co.id",
+    "role": "HR Manager",
+    "department_id": "dept-003",
+    "manager_id": "emp-001",
+    "status": "active",
+    "join_date": "2017-02-14"
+  },
+  {
+    "id": "emp-006",
+    "name": "Fajar Nugroho",
+    "email": "fajar.nugroho@ptmajujaya.co.id",
+    "role": "HR Staff",
+    "department_id": "dept-003",
+    "manager_id": "emp-005",
+    "status": "active",
+    "join_date": "2020-09-01"
+  },
+  {
+    "id": "emp-007",
+    "name": "Hendra Gunawan",
+    "email": "hendra.gunawan@ptmajujaya.co.id",
+    "role": "Procurement Manager",
+    "department_id": "dept-004",
+    "manager_id": "emp-001",
+    "status": "active",
+    "join_date": "2016-11-03"
+  },
+  {
+    "id": "emp-008",
+    "name": "Yuni Astuti",
+    "email": "yuni.astuti@ptmajujaya.co.id",
+    "role": "Procurement Staff",
+    "department_id": "dept-004",
+    "manager_id": "emp-007",
+    "status": "active",
+    "join_date": "2021-03-15"
+  },
+  {
+    "id": "emp-009",
+    "name": "Teguh Prasetyo",
+    "email": "teguh.prasetyo@ptmajujaya.co.id",
+    "role": "QA Manager",
+    "department_id": "dept-005",
+    "manager_id": "emp-001",
+    "status": "active",
+    "join_date": "2018-04-22"
+  },
+  {
+    "id": "emp-010",
+    "name": "Wawan Kurniawan",
+    "email": "wawan.kurniawan@ptmajujaya.co.id",
+    "role": "QA Supervisor",
+    "department_id": "dept-005",
+    "manager_id": "emp-011",
+    "status": "active",
+    "join_date": "2019-07-10"
+  },
+  {
+    "id": "emp-011",
+    "name": "Lia Permata",
+    "email": "lia.permata@ptmajujaya.co.id",
+    "role": "QA Lead",
+    "department_id": "dept-005",
+    "manager_id": "emp-010",
+    "status": "active",
+    "join_date": "2019-08-15"
+  },
+  {
+    "id": "emp-012",
+    "name": "Rudi Hartono",
+    "email": "rudi.hartono@ptmajujaya.co.id",
+    "role": "QA Inspector",
+    "department_id": "dept-005",
+    "manager_id": "emp-009",
+    "status": "active",
+    "join_date": "2022-01-10"
+  },
+  {
+    "id": "emp-013",
+    "name": "Bambang Suparjo",
+    "email": "bambang.suparjo@ptmajujaya.co.id",
+    "role": "Warehouse Manager",
+    "department_id": "dept-006",
+    "manager_id": "emp-001",
+    "status": "active",
+    "join_date": "2017-05-30"
+  },
+  {
+    "id": "emp-014",
+    "name": "Eko Purnomo",
+    "email": "eko.purnomo@ptmajujaya.co.id",
+    "role": "Warehouse Staff",
+    "department_id": "dept-006",
+    "manager_id": "emp-013",
+    "status": "active",
+    "join_date": "2020-11-12"
+  },
+  {
+    "id": "emp-015",
+    "name": "Dian Sari",
+    "email": "dian.sari@ptmajujaya.co.id",
+    "role": "Warehouse Staff",
+    "department_id": "dept-006",
+    "manager_id": "emp-099",
+    "status": "active",
+    "join_date": "2021-08-25"
+  },
+  {
+    "id": "emp-016",
+    "name": "Agus Supriyadi",
+    "email": "agus.supriyadi@ptmajujaya.co.id",
+    "role": "Production Manager",
+    "department_id": "dept-001",
+    "manager_id": "emp-001",
+    "status": "active",
+    "join_date": "2016-09-18"
+  },
+  {
+    "id": "emp-017",
+    "name": "Joko Susanto",
+    "email": "joko.s@ptmajujaya.co.id",
+    "role": "Production Operator",
+    "department_id": "dept-001",
+    "manager_id": "emp-016",
+    "status": "active",
+    "join_date": "2020-02-03"
+  },
+  {
+    "id": "emp-018",
+    "name": "Surya Darma",
+    "email": "surya.darma@ptmajujaya.co.id",
+    "role": "Production Operator",
+    "department_id": "dept-001",
+    "manager_id": "emp-016",
+    "status": "active",
+    "join_date": "2020-02-03"
+  },
+  {
+    "id": "emp-019",
+    "name": "Indra Kusuma",
+    "email": "indra.kusuma@ptmajujaya.co.id",
+    "role": "Production Operator",
+    "department_id": "dept-001",
+    "manager_id": "emp-016",
+    "status": "active",
+    "join_date": "2020-05-11"
+  },
+  {
+    "id": "emp-020",
+    "name": "Putri Handayani",
+    "email": "putri.handayani@ptmajujaya.co.id",
+    "role": "Production Operator",
+    "department_id": "dept-001",
+    "manager_id": null,
+    "status": "active",
+    "join_date": "2021-01-20"
+  },
+  {
+    "id": "emp-021",
+    "name": "Rizky Ramadhan",
+    "email": "rizky.ramadhan@ptmajujaya.co.id",
+    "role": "Production Operator",
+    "department_id": "dept-001",
+    "manager_id": "emp-016",
+    "status": "active",
+    "join_date": "2021-07-05"
+  },
+  {
+    "id": "emp-022",
+    "name": "Wahyu Setiawan",
+    "email": "wahyu.setiawan@ptmajujaya.co.id",
+    "role": "Production Operator",
+    "department_id": "dept-001",
+    "manager_id": "emp-016",
+    "status": "active",
+    "join_date": "2022-03-14"
+  },
+  {
+    "id": "emp-023",
+    "name": "Novi Anggraini",
+    "email": "novi.anggraini@ptmajujaya.co.id",
+    "role": "Production Operator",
+    "department_id": "dept-001",
+    "manager_id": "emp-016",
+    "status": "active",
+    "join_date": "2022-08-01"
+  },
+  {
+    "id": "emp-024",
+    "name": "Arief Rahman",
+    "email": "arief.rahman@ptmajujaya.co.id",
+    "role": "IT Manager",
+    "department_id": "dept-007",
+    "manager_id": "emp-001",
+    "status": "active",
+    "join_date": "2018-10-08"
+  },
+  {
+    "id": "emp-025",
+    "name": "Tommy Sutanto",
+    "email": "tommy.s@ptmajujaya.co.id",
+    "role": "IT Staff",
+    "department_id": "dept-007",
+    "manager_id": "emp-024",
+    "status": "inactive",
+    "join_date": "2019-06-15",
+    "end_date": "2025-10-31"
+  },
+  {
+    "id": "emp-026",
+    "name": "Maya Saptono",
+    "email": "maya.saptono@ptmajujaya.co.id",
+    "role": "Marketing Staff",
+    "department_id": "dept-008",
+    "manager_id": "emp-001",
+    "status": "active",
+    "join_date": "2023-01-09"
+  }
+]

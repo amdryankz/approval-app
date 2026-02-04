@@ -1,0 +1,456 @@
+[
+  {
+    "id": "req-001",
+    "type": "purchase",
+    "submitted_by": "emp-008",
+    "submitted_at": "2025-11-05T09:23:00Z",
+    "status": "approved",
+    "approved_by": "emp-007",
+    "approved_at": "2025-11-05T14:10:00Z",
+    "details": {
+      "item_description": "Printer toner cartridges (HP LaserJet) x 10",
+      "estimated_cost": 3500000,
+      "currency": "IDR",
+      "vendor": "PT Toko Komputer Jaya",
+      "urgency": "normal"
+    },
+    "notes": "Monthly supply replenishment"
+  },
+  {
+    "id": "req-002",
+    "type": "purchase",
+    "submitted_by": "emp-014",
+    "submitted_at": "2025-11-08T07:45:00Z",
+    "status": "approved",
+    "approved_by": "emp-013",
+    "approved_at": "2025-11-08T11:30:00Z",
+    "details": {
+      "item_description": "Safety gloves (industrial grade) x 50 pairs",
+      "estimated_cost": 7500000,
+      "currency": "IDR",
+      "vendor": "CV Safety Equipment Indonesia",
+      "urgency": "high"
+    },
+    "notes": "Current stock running low, needed for production line"
+  },
+  {
+    "id": "req-003",
+    "type": "purchase",
+    "submitted_by": "emp-003",
+    "submitted_at": "2025-11-12T10:00:00Z",
+    "status": "rejected",
+    "approved_by": "emp-002",
+    "approved_at": "2025-11-13T09:15:00Z",
+    "details": {
+      "item_description": "Standing desk converter x 3",
+      "estimated_cost": 15000000,
+      "currency": "IDR",
+      "vendor": "Tokopedia seller",
+      "urgency": "low"
+    },
+    "notes": "Budget not available this quarter. Resubmit in Q1 2026."
+  },
+  {
+    "id": "req-004",
+    "type": "purchase",
+    "submitted_by": "emp-017",
+    "submitted_at": "2025-11-15T08:30:00Z",
+    "status": "pending",
+    "details": {
+      "item_description": "CNC Machine replacement parts",
+      "estimated_cost": 2500000000,
+      "currency": "IDR",
+      "vendor": "PT Mesin Industri Nusantara",
+      "urgency": "high"
+    },
+    "notes": "Machine #7 broke down, production halted on line 3"
+  },
+  {
+    "id": "req-005",
+    "type": "leave",
+    "submitted_by": "emp-006",
+    "submitted_at": "2025-11-18T08:00:00Z",
+    "status": "approved",
+    "approved_by": "emp-005",
+    "approved_at": "2025-11-18T10:20:00Z",
+    "details": {
+      "leave_type": "annual",
+      "start_date": "2025-12-23",
+      "end_date": "2025-12-27",
+      "reason": "Family holiday"
+    },
+    "notes": null
+  },
+  {
+    "id": "req-006",
+    "type": "leave",
+    "submitted_by": "emp-012",
+    "submitted_at": "2025-11-20T07:15:00Z",
+    "status": "approved",
+    "approved_by": "emp-009",
+    "approved_at": "2025-11-20T09:45:00Z",
+    "details": {
+      "leave_type": "sick",
+      "start_date": "2025-11-20",
+      "end_date": "2025-11-21",
+      "reason": "Flu and fever"
+    },
+    "notes": "Medical certificate will be submitted upon return"
+  },
+  {
+    "id": "req-007",
+    "type": "leave",
+    "submitted_by": "emp-019",
+    "submitted_at": "2025-11-22T12:30:00Z",
+    "status": "rejected",
+    "approved_by": "emp-016",
+    "approved_at": "2025-11-22T14:00:00Z",
+    "details": {
+      "leave_type": "annual",
+      "start_date": "2025-12-20",
+      "end_date": "2026-01-05",
+      "reason": "Mudik Natal dan Tahun Baru"
+    },
+    "notes": "Too many operators already on leave during this period. Please coordinate with team."
+  },
+  {
+    "id": "req-008",
+    "type": "leave",
+    "submitted_by": "emp-021",
+    "submitted_at": "2025-12-01T08:00:00Z",
+    "status": "pending",
+    "details": {
+      "leave_type": "annual",
+      "start_date": "2026-01-15",
+      "end_date": "2026-01-10",
+      "reason": "Family event in Surabaya"
+    },
+    "notes": ""
+  },
+  {
+    "id": "req-009",
+    "type": "overtime",
+    "submitted_by": "emp-018",
+    "submitted_at": "2025-11-25T16:00:00Z",
+    "status": "approved",
+    "approved_by": "emp-016",
+    "approved_at": "2025-11-25T16:30:00Z",
+    "details": {
+      "date": "2025-11-25",
+      "hours": 3,
+      "reason": "Rush order for client PT ABC needs to ship by tomorrow"
+    },
+    "notes": null
+  },
+  {
+    "id": "req-010",
+    "type": "overtime",
+    "submitted_by": "emp-022",
+    "submitted_at": "2025-11-28T15:45:00Z",
+    "status": "approved",
+    "approved_by": "emp-016",
+    "approved_at": "2025-11-28T16:10:00Z",
+    "details": {
+      "date": "2025-11-28",
+      "hours": 4,
+      "reason": "Machine maintenance and calibration"
+    },
+    "notes": null
+  },
+  {
+    "id": "req-011",
+    "type": "leave",
+    "submitted_by": "emp-025",
+    "submitted_at": "2025-10-20T09:00:00Z",
+    "status": "pending",
+    "details": {
+      "leave_type": "annual",
+      "start_date": "2025-11-10",
+      "end_date": "2025-11-14",
+      "reason": "Personal matters"
+    },
+    "notes": null
+  },
+  {
+    "id": "req-012",
+    "type": "purchase",
+    "submitted_by": "emp-024",
+    "submitted_at": "2025-12-02T10:30:00Z",
+    "status": "approved",
+    "approved_by": "emp-001",
+    "approved_at": "2025-12-02T15:00:00Z",
+    "details": {
+      "item_description": "Dell monitors 27\" x 5",
+      "estimated_cost": 25000000,
+      "currency": "IDR",
+      "vendor": "PT Dell Indonesia",
+      "urgency": "normal"
+    },
+    "notes": "For new finance team workstations"
+  },
+  {
+    "id": "req-013",
+    "type": "leave",
+    "submitted_by": "emp-002",
+    "submitted_at": "2025-12-03T08:00:00Z",
+    "status": "approved",
+    "approved_by": "emp-001",
+    "approved_at": "2025-12-03T09:00:00Z",
+    "details": {
+      "leave_type": "annual",
+      "start_date": "2025-12-24",
+      "end_date": "2025-12-31",
+      "reason": "Christmas & New Year holiday"
+    },
+    "notes": ""
+  },
+  {
+    "id": "req-014",
+    "type": "purchase",
+    "submitted_by": "emp-009",
+    "submitted_at": "2025-12-05T11:00:00Z",
+    "status": "pending",
+    "details": {
+      "item_description": "Calibration tools set for measurement instruments",
+      "estimated_cost": 45000000,
+      "currency": "IDR",
+      "vendor": "PT Instrument Indonesia",
+      "urgency": "normal"
+    },
+    "notes": "Annual calibration due in January"
+  },
+  {
+    "id": "req-015",
+    "type": "overtime",
+    "submitted_by": "emp-023",
+    "submitted_at": "2025-12-08T16:00:00Z",
+    "status": "pending",
+    "details": {
+      "date": "2025-12-08",
+      "hours": 2,
+      "reason": "Finishing batch #4521 packaging"
+    },
+    "notes": null
+  },
+  {
+    "id": "req-016",
+    "type": "overtime",
+    "submitted_by": "emp-023",
+    "submitted_at": "2025-12-08T16:05:00Z",
+    "status": "pending",
+    "details": {
+      "date": "2025-12-08",
+      "hours": 2,
+      "reason": "Finishing batch #4521 packaging"
+    },
+    "notes": null
+  },
+  {
+    "id": "req-017",
+    "type": "purchase",
+    "submitted_by": "emp-007",
+    "submitted_at": "2025-10-01T09:00:00Z",
+    "status": "pending",
+    "details": {
+      "item_description": "Forklift annual service and maintenance package",
+      "estimated_cost": 85000000,
+      "currency": "IDR",
+      "vendor": "PT Toyota Material Handling",
+      "urgency": "normal"
+    },
+    "notes": "Service contract renewal for 2026"
+  },
+  {
+    "id": "req-018",
+    "type": "leave",
+    "submitted_by": "emp-004",
+    "submitted_at": "2025-12-10T08:30:00Z",
+    "status": "approved",
+    "approved_by": "emp-007",
+    "approved_at": "2025-12-10T11:00:00Z",
+    "details": {
+      "leave_type": "annual",
+      "start_date": "2026-01-02",
+      "end_date": "2026-01-03",
+      "reason": "Extended new year break"
+    },
+    "notes": ""
+  },
+  {
+    "id": "req-019",
+    "type": "purchase",
+    "submitted_by": "emp-013",
+    "submitted_at": "2025-12-11T14:00:00Z",
+    "status": "pending",
+    "details": {
+      "item_description": "Pallet racking system extension (2 bays)",
+      "estimated_cost": 35000000,
+      "currency": "IDR",
+      "vendor": "CV Rak Gudang Sejahtera",
+      "urgency": "normal"
+    },
+    "notes": "Warehouse section B running out of space"
+  },
+  {
+    "id": "req-020",
+    "type": "overtime",
+    "submitted_by": "emp-017",
+    "submitted_at": "2025-12-12T15:30:00Z",
+    "status": "approved",
+    "approved_by": "emp-016",
+    "approved_at": "2025-12-12T15:50:00Z",
+    "details": {
+      "date": "2025-12-12",
+      "hours": 2,
+      "reason": "End of year stock count preparation"
+    },
+    "notes": null
+  },
+  {
+    "id": "req-021",
+    "type": "purchase",
+    "submitted_by": "emp-005",
+    "submitted_at": "2025-12-13T09:00:00Z",
+    "status": "approved",
+    "approved_by": "emp-001",
+    "approved_at": "2025-12-13T10:30:00Z",
+    "details": {
+      "item_description": "Employee satisfaction survey platform license (annual)",
+      "estimated_cost": 12000000,
+      "currency": "IDR",
+      "vendor": "SurveyMonkey",
+      "urgency": "low"
+    },
+    "notes": "For annual engagement survey in February"
+  },
+  {
+    "id": "req-022",
+    "type": "leave",
+    "submitted_by": "emp-010",
+    "submitted_at": "2025-12-15T08:00:00Z",
+    "status": "pending",
+    "details": {
+      "leave_type": "annual",
+      "start_date": "2026-01-20",
+      "end_date": "2026-01-24",
+      "reason": "Family wedding in Yogyakarta"
+    },
+    "notes": null
+  },
+  {
+    "id": "req-023",
+    "type": "purchase",
+    "submitted_by": "emp-014",
+    "submitted_at": "2025-12-16T07:30:00Z",
+    "status": "pending",
+    "details": {
+      "item_description": null,
+      "estimated_cost": 5000000,
+      "currency": "IDR",
+      "vendor": null,
+      "urgency": "high"
+    },
+    "notes": "Eko bilang urgent tapi ga kasih detail, tolong follow up"
+  },
+  {
+    "id": "req-024",
+    "type": "leave",
+    "submitted_by": "emp-003",
+    "submitted_at": "15/12/2025 10:00",
+    "status": "pending",
+    "details": {
+      "leave_type": "sick",
+      "start_date": "15/12/2025",
+      "end_date": "16/12/2025",
+      "reason": "Sakit gigi, perlu ke dokter"
+    },
+    "notes": null
+  },
+  {
+    "id": "req-025",
+    "type": "purchase",
+    "submitted_by": "emp-008",
+    "submitted_at": "2025-12-01T09:00:00Z",
+    "status": "cancelled",
+    "details": {
+      "item_description": "Office chair ergonomic x 2",
+      "estimated_cost": 8000000,
+      "currency": "IDR",
+      "vendor": "IKEA Indonesia",
+      "urgency": "low"
+    },
+    "notes": "Cancelled - found existing chairs in storage"
+  },
+  {
+    "id": "req-026",
+    "type": "overtime",
+    "submitted_by": "emp-019",
+    "submitted_at": "2025-12-18T16:15:00Z",
+    "status": "pending",
+    "details": {
+      "date": "2025-12-18",
+      "hours": 3,
+      "reason": "Urgent client order, delivery deadline tomorrow"
+    },
+    "notes": null
+  },
+  {
+    "id": "req-027",
+    "type": "purchase",
+    "submitted_by": "emp-016",
+    "submitted_at": "2025-12-19T10:00:00Z",
+    "status": "pending",
+    "details": {
+      "item_description": "Raw material - Aluminium sheets (100 pcs)",
+      "estimated_cost": 150000000,
+      "currency": "IDR",
+      "vendor": "PT Aluminium Indonesia",
+      "urgency": "high"
+    },
+    "notes": "Running low, need to restock before year end"
+  },
+  {
+    "id": "req-028",
+    "type": "leave",
+    "submitted_by": "emp-024",
+    "submitted_at": "2025-12-20T08:00:00Z",
+    "status": "approved",
+    "approved_by": "emp-001",
+    "approved_at": "2025-12-20T09:30:00Z",
+    "details": {
+      "leave_type": "annual",
+      "start_date": "2025-12-29",
+      "end_date": "2026-01-02",
+      "reason": "Year end holiday"
+    },
+    "notes": ""
+  },
+  {
+    "id": "req-029",
+    "type": "overtime",
+    "submitted_by": "emp-018",
+    "submitted_at": "2025-12-22T15:00:00Z",
+    "status": "pending",
+    "details": {
+      "date": "2025-12-22",
+      "hours": 14,
+      "reason": "Year end production push"
+    },
+    "notes": null
+  },
+  {
+    "id": "req-030",
+    "type": "purchase",
+    "submitted_by": "emp-026",
+    "submitted_at": "2025-12-23T09:00:00Z",
+    "status": "pending",
+    "details": {
+      "item_description": "Marketing brochures printing (500 pcs)",
+      "estimated_cost": 5000000,
+      "currency": "IDR",
+      "vendor": "CV Percetakan Mandiri",
+      "urgency": "normal"
+    },
+    "notes": "For upcoming trade show in February"
+  }
+]

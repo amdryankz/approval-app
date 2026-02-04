@@ -1,0 +1,71 @@
+generator client {
+  provider = "prisma-client-js"
+  output   = "./generated"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+enum EmployeeStatus {
+  active
+  inactive
+}
+
+enum RequestType {
+  purchase
+  leave
+  overtime
+}
+
+enum RequestStatus {
+  pending
+  approved
+  rejected
+}
+
+model Department {
+  id        String     @id @unique
+  name      String
+  location  String
+  employees Employee[]
+
+  @@map("departments")
+}
+
+model Employee {
+  id           String         @id @unique
+  name         String
+  email        String         @unique
+  role         String
+  departmentId String         @map("department_id")
+  managerId    String?        @map("manager_id")
+  status       EmployeeStatus
+  joinDate     DateTime       @map("join_date")
+  endDate      DateTime?      @map("end_date")
+
+  department        Department @relation(fields: [departmentId], references: [id])
+  manager           Employee?  @relation("EmployeeHierarchy", fields: [managerId], references: [id])
+  subordinates      Employee[] @relation("EmployeeHierarchy")
+  submittedRequests Request[]  @relation("SubmittedRequests")
+  approvedRequests  Request[]  @relation("ApprovedRequests")
+
+  @@map("employees")
+}
+
+model Request {
+  id          String        @id @unique
+  type        RequestType
+  submittedBy String        @map("submitted_by")
+  submittedAt DateTime      @map("submitted_at")
+  status      RequestStatus
+  approvedBy  String?       @map("approved_by")
+  approvedAt  DateTime?     @map("approved_at")
+  details     Json
+  notes       String?
+
+  submitter Employee  @relation("SubmittedRequests", fields: [submittedBy], references: [id])
+  approver  Employee? @relation("ApprovedRequests", fields: [approvedBy], references: [id])
+
+  @@map("requests")
+}
