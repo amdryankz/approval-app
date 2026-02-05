@@ -43,6 +43,28 @@ export default class Controller {
     }
   }
 
+  static async getRequestById(req: Request, res: Response): Promise<void> {
+    try {
+      const id = req.params.id as string
+
+      if (!id) {
+        throw new BadRequestError('id is required')
+      }
+
+      const request = await Service.getRequestById(id);
+
+      res.status(200).json({
+        message: "Success fetch request by id",
+        data: request,
+      });
+    } catch (err: any) {
+      const { message, status } = errorHandler(err)
+      res.status(status).json({
+        message
+      });
+    }
+  }
+
   static async createRequest(req: Request, res: Response): Promise<void> {
     try {
       const { type, submittedBy, details, notes } = req.body;

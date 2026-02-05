@@ -32,6 +32,9 @@ export default class Service {
             managerId: employeeId
           }
         },
+        include: {
+          submitter: true
+        },
         orderBy: {
           submittedAt: 'desc',
         },
@@ -39,6 +42,24 @@ export default class Service {
     ])
 
     return { requests, approver };
+  }
+
+  static async getRequestById(id: string): Promise<PrismaRequest> {
+    const employee = await prisma.request.findUnique({
+      where: {
+        id
+      },
+      include: {
+        approver: true,
+        submitter: true
+      }
+    });
+
+    if (!employee) {
+      throw new NotFoundError(`Requests with id ${id} not found`);
+    }
+
+    return employee
   }
 
   static async createRequest(data: CreateRequestInput): Promise<PrismaRequest> {
